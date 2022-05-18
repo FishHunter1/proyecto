@@ -1,0 +1,183 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 13px 25px;
+  gap: 19px;
+
+  position: absolute;
+  width: auto;
+  height: 1114px;
+  left: 12%;
+  right: 12%;
+  top: 90px;
+
+  background: #202020;
+  border-radius: 20px
+}
+.main__title{
+  background: #202020;
+  width: 100%;
+  height: 32px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.main__column{
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4%;
+
+  width: 100%;
+  height: 30%;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.main__column-item{
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  width: 18%;
+  height: 100%;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.main__column-item_img{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  background-image: url("https://img1.ak.crunchyroll.com/i/spire1/0cf2bb1d8613e37f7b8913b0cc85065b1389123747_full.jpg");
+  background-size: 100%;
+  width: 199.33px;
+  height: 279px;
+
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.main__column-item_title{
+  background-color: #202020;
+  width: 100%;
+  height: 37px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #FFFFFF;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#img1{
+  background-image: url("https://www.moshimoshi-nippon.jp/wp/wp-content/uploads/2019/02/63325ed09b55b6834d24696c3a726b8e.jpg")
+}
+#img2{
+  background-image: url("https://pulpfictioncine.com/download/multimedia.normal.973b983bb50f1374.5370797846616d696c792d74656e6472c3a12d616e696d655f6e6f726d616c2e77656270.webp")
+}
+#img3{
+  background-image: url("https://somoskudasai.com/wp-content/uploads/2022/03/visual_2.jpg")
+}
+#img4{
+  background-image: url("https://somoskudasai.com/wp-content/uploads/2022/03/DAL4_KV.jpg")
+}
+#img5{
+  background-image: url("https://ramenparados.com/wp-content/uploads/2021/07/summer-time-render-anime.jpg")
+}
+#img6{
+  background-image: url("https://areajugones.sport.es/wp-content/uploads/2020/09/the-rising-of-shield-hero-s2.jpg")
+}
+#img7{
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNmZlOWJjZmItNWM5ZC00MDM5LTg5ZGQtMTdkZjAxODk2OTY4XkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_QL75_UY281_CR6,0,190,281_.jpg");
+}
+#img8{
+  background-image: url("https://media.revistagq.com/photos/60decb7880753d8ce50f0565/3:4/w_2559,h_3412,c_limit/the-great-ace-attorney-chronicles-cover.jpeg");
+}
+#img9{
+  background-image: url("https://i.pinimg.com/originals/e5/39/c2/e539c23a1fe5bc74d28d920581c273a6.jpg");
+}
+#img10{
+  background-image: url("https://images-ext-1.discordapp.net/external/TUuHXoDoZ8L_As-pU0bp8vTaUiR5pwy7OdIs3mEYrzQ/https/pics.filmaffinity.com/hataraku_saibou_tv_series-214469058-large.jpg?width=355&height=473");
+}
+#img11{
+  background-image: url("https://img1.ak.crunchyroll.com/i/spire1/5601eec39026ea5dbf88fc35d9d6fb9f1516836642_full.jpg");
+}
+#img12{
+  background-image: url("https://www.otaquz.net/wp-content/uploads/2020/12/dr-stone-segunda-temporada-nuevo-poster-promocional.jpg");
+}
+
+//botones pagina
+.page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5%;
+
+  width: 100%;
+  height: 0px;
+
+  text-align: center;
+  color: #FFFFFF;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.page__item{
+  background: #303030;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+}
+#pag1{
+  background: #404040;
+}
+a{
+  background: none;
+  size: 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
