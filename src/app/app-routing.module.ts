@@ -13,17 +13,21 @@ import { SeriesComponent } from './components_paginas/series/series.component';
 import { Series2Component } from './components_paginas/series2/series2.component';
 import { AceComponent } from './pages/ace/ace.component';
 import { BattleComponent } from './pages/battle/battle.component';
+import { CellsComponent } from './pages/cells/cells.component';
 import { DateComponent } from './pages/date/date.component';
 import { DeathComponent } from './pages/death/death.component';
 import { EdenComponent } from './pages/eden/eden.component';
 import { EggComponent } from './pages/egg/egg.component';
 import { EvangeliongComponent } from './pages/evangeliong/evangeliong.component';
 import { EvangelionpComponent } from './pages/evangelionp/evangelionp.component';
+import { FoodComponent } from './pages/food/food.component';
 import { GivenComponent } from './pages/given/given.component';
+import { HetaliaComponent } from './pages/hetalia/hetalia.component';
 import { KaguyaComponent } from './pages/kaguya/kaguya.component';
 import { KomiComponent } from './pages/komi/komi.component';
 import { MagicComponent } from './pages/magic/magic.component';
 import { MonsterComponent } from './pages/monster/monster.component';
+import { NisekoiComponent } from './pages/nisekoi/nisekoi.component';
 import { SpiceComponent } from './pages/spice/spice.component';
 import { SpyComponent } from './pages/spy/spy.component';
 import { SteinsComponent } from './pages/steins/steins.component';
@@ -31,6 +35,7 @@ import { StoneComponent } from './pages/stone/stone.component';
 import { SummerComponent } from './pages/summer/summer.component';
 import { TateComponent } from './pages/tate/tate.component';
 import { WakimiComponent } from './pages/wakimi/wakimi.component';
+import { YoungComponent } from './pages/young/young.component';
 
 const routes: Routes = [
   {path: '',pathMatch:'full', redirectTo:'inicio'},
@@ -62,7 +67,12 @@ const routes: Routes = [
   {path: 'categorias_economicas', component:CategoriasEconomicasComponent},
   {path: 'categorias_humanidades', component:CategoriasHumanidadesComponent},
   {path: 'categorias_juridica', component:CategoriasJuridicaComponent},
-  {path: 'categorias_salud', component:CategoriasSaludComponent}
+  {path: 'categorias_salud', component:CategoriasSaludComponent},
+  {path: 'cells', component:CellsComponent},
+  {path: 'nisekoi', component:NisekoiComponent},
+  {path: 'food', component:FoodComponent},
+  {path: 'young', component:YoungComponent},
+  {path: 'hetalia', component:HetaliaComponent}
 ];
 
 @NgModule({

@@ -36,6 +36,10 @@ import { CategoriasJuridicaComponent } from './components_paginas/categorias-jur
 import { CategoriasHumanidadesComponent } from './components_paginas/categorias-humanidades/categorias-humanidades.component';
 import { CategoriasSaludComponent } from './components_paginas/categorias-salud/categorias-salud.component';
 import { CategoriasEconomicasComponent } from './components_paginas/categorias-economicas/categorias-economicas.component';
+import { CellsComponent } from './pages/cells/cells.component';
+import { FoodComponent } from './pages/food/food.component';
+import { YoungComponent } from './pages/young/young.component';
+import { HetaliaComponent } from './pages/hetalia/hetalia.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +75,11 @@ import { CategoriasEconomicasComponent } from './components_paginas/categorias-e
     CategoriasJuridicaComponent,
     CategoriasHumanidadesComponent,
     CategoriasSaludComponent,
-    CategoriasEconomicasComponent
+    CategoriasEconomicasComponent,
+    CellsComponent,
+    FoodComponent,
+    YoungComponent,
+    HetaliaComponent
   ],
   imports: [
     BrowserModule,
